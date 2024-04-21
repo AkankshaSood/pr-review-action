@@ -2,10 +2,13 @@
   "name": "pr-reviews-action-intuit",
   "version": "1.0.0",
   "description": "Reminder for Pull Request pending reviews",
-  "scripts": {},
+  "scripts": {
+    "build": "ncc build index.js"
+  },
   "author": "Akanksha Sood",
   "dependencies": {
     "@actions/core": "^1.10.1",
+    "@vercel/ncc": "^0.38.1",
     "axios": "^1.6.8"
   }
 }
